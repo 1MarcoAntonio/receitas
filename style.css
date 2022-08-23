@@ -1,3 +1,25 @@
 body {
     background-color: lightblue;
 }
+
+.logo{
+    width: 100px;
+}
+
+.h2logo{
+    color: aliceblue;
+    height: px;
+}
+
+header{
+    background-color: black;
+    border: 3px solid blue;
+    height: 110px;
+    display: flex;
+    align-items: center;
+
+}
+header h2{
+    margin-left: 20px;
+}
+
