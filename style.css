@@ -17,9 +17,20 @@ header{
     height: 110px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 header h2{
     margin-left: 20px;
 }
 
+.nav-cadastro a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: azure;
+}
+
+.logo-nome{
+    display: flex;
+    align-items: center;
+}
