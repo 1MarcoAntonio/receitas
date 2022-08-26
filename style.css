@@ -1,85 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
-
 body {
-    background-color:linen;
-    font-family: sans-serif
-}
-
-.logo{
-    width: 100px;
-}
-
-.h2logo{
-    color: aliceblue;
-    height: px;
-}
-
-header{
-    background-color:lightsalmon;
-    border: 3px solid blue;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-header h2{
-    margin-left: 20px;
-}
-
-.nav-cadastro a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: azure;
-}
-
-.logo-nome{
-    display: flex;
-    align-items: center;
-}
-
-.img1{
-    height: 55%;
-    padding: 22px;
-    border-radius: 15%;
-    border: 3px solid lightsalmon;
-    
-}
-
-.img2{
-    width: 70%;
-    border-radius: 21%;
-    border: 3px solid lightsalmon
-}
-
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.arroz{
-    color: black;
-}
-
-.pizza{
-    color: black;
-}
-
-.pizzap{
-    color: rgb(37, 35, 35);
-}
-
-.arrozp{
-    color: rgb(37, 35, 35);
+    padding: 5% 10%;
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-.div-main{
-    display:flex;
-    margin-top: 5%;
+.descricao{
+    width: 40ch;
+}
 
-    
+h1{
+    font-size: 3rem;
+    border: 2px dashed black;
+    color: rgba(0, 0, 0, 0.233);
+    width: 50%;
 }
