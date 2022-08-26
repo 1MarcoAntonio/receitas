@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
 body {
     background-color:linen;
+    font-family: sans-serif
 }
 
 .logo{
@@ -36,17 +41,45 @@ header h2{
 }
 
 .img1{
-    height: 30%;
-    padding: 30px;
+    height: 55%;
+    padding: 22px;
+    border-radius: 15%;
+    border: 3px solid lightsalmon;
+    
 }
 
 .img2{
     width: 70%;
-
+    border-radius: 21%;
+    border: 3px solid lightsalmon
 }
 
 .main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.arroz{
+    color: black;
+}
+
+.pizza{
+    color: black;
+}
+
+.pizzap{
+    color: rgb(37, 35, 35);
+}
+
+.arrozp{
+    color: rgb(37, 35, 35);
+
+}
+
+.div-main{
+    display:flex;
+    margin-top: 5%;
+
+    
 }
